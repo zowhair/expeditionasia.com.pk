@@ -1,0 +1,24 @@
+@extends('layouts.app')
+@section('meta')
+    @include('components.meta')
+@endsection
+@section('topbanner')
+    @include('components.topbanner')   
+@endsection
+@section('navbar')
+    @include('components.navbar')
+@endsection
+@section('content')
+    @include('components.carousel')
+    @include('components.welcome-note')
+    @include('components.trending-trips')
+    @include('components.partners')
+    @include('components.gallery')
+@endsection
+@section('footer')
+    @include('components.footer')
+@endsection
+
+@section('scripts')
+    @include('components.scripts')
+@endsection
