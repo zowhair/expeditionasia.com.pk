@@ -18,6 +18,94 @@
   text-decoration: none;
   color: #555;
 }
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
 </style>
 
 <div class="jumbotron text-center " style="background-color: #fff;">
@@ -36,23 +124,26 @@
 </div>
 <div class="col-lg-2"></div>
 </div>
-
+<!-- our team 
 <div class="bg-light py-5 text-center">
   <div class="container py-5">
     <div class="row mb-4 "  >
       <div class="col-lg-5 ">
         <h2 class="display-4 font-weight-light text-center">Our team</h2>
-        <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="font-italic text-muted">Team of Expedition Asia Trek & Tours</p>
       </div>
     </div>
 
     <div class="row text-center">
-      <!-- Team item-->
+     
       <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src=" {{ asset('img/shams.jpg') }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+         
           <h5 class="mb-0">Shamshad Hussain</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
           <ul class="social mb-0 list-inline mt-3">
-            				<li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+            				<li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
                             <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
@@ -61,57 +152,155 @@
           </ul>
         </div>
       </div>
+      -->
       <!-- End-->
-
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-1_s02nlg.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Wazir Kazim</h5><span class="small text-uppercase text-muted">Manager</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                           
-          </ul>
-        </div>
-      </div>
-      <!-- End-->
-
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png " alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Broqpa Bhai</h5><span class="small text-uppercase text-muted">Senior Manager</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                            
-          </ul>
-        </div>
-      </div>
-      <!-- End-->
-
-      <!-- Team item-->
-      <div class="col-xl-3 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4">
-        	<!-- <img src=" https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"> -->
-        	<img src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png " alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Olding Guru</h5><span class="small text-uppercase text-muted">Junior Manager</span>
-          <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
-                            <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                            
-          </ul>
-        </div>
-      </div>
-      <!-- End-->
+ 
 
     </div>
+  </div>
+</div>
+<!-- old -->
+
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+  <div class="col-md-5 p-lg-5 mx-auto my-5">
+    <h1 class="display-4 font-weight-normal">Our Team</h1>
+    <p class="lead font-weight-normal">Here at Expedition Asia Trek & Tours we have higly experienced and professional team of managers, climbers, guides and porters.</p>
+    <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5 text-white">Shamshad Hussain</h2>
+      <p class="lead">Founder & CEO</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <img src="{{ asset('img/shams.jpg') }} " style="width: 80%; height: 300px;">
+    </div>
+    <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                           
+          </ul>
+  </div>
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Kazim Wazir</h2>
+      <p class="lead">Manager Reservation and Marketing</p>
+    </div>
+    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <img src="{{ asset('img/shams.jpg') }} " style="width: 80%; height: 300px;">
+    </div>
+    <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                           
+          </ul>
+  </div>
+
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Furman</h2>
+      <p class="lead">Manager Recovery</p>
+    </div>
+    <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <img src="{{ asset('img/shams.jpg') }} " style="width: 80%; height: 300px;">
+    </div>
+    <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                           
+          </ul>
+  </div>
+  <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Zamin</h2>
+      <p class="lead">Transport and Vechicle Manager.</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <img src="{{ asset('img/shams.jpg') }} " style="width: 80%; height: 300px;">
+    </div>
+    <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                           
+          </ul>
+  </div>
+</div>
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+  <div class="col-md-5 p-lg-5 mx-auto my-5">
+    <h1 class="display-4 font-weight-normal">Guides</h1>
+    <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+  </div>
+</div>
+
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Shabbir</h2>
+      <p class="lead">Trekking Guide</p>
+    </div>
+    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <img src="{{ asset('img/shams.jpg') }} " style="width: 80%; height: 300px;">
+    </div>
+    <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                           
+          </ul>
+  </div>
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Younus</h2>
+      <p class="lead">Mountain Guide</p>
+    </div>
+    <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <img src="{{ asset('img/shams.jpg') }} " style="width: 80%; height: 300px;">
+    </div>
+    <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item">
+                      <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google"></i></a></li>
+                    <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                           
+          </ul> 
   </div>
 </div>
 

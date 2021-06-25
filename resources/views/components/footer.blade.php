@@ -10,10 +10,9 @@
                           <div class="col-md-4 col-sm-6 col-xs-12">
                             <ul class="social-icons">
                               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                          <li><a href="#"><i class="fab fa-google"></i></a></li>
-                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                          <li><a href="https://www.facebook.com/expeditionasiapk"><i class="fab fa-facebook"></i></a></li>
+                          <li><a href="https://www.instagram.com/expeditionasiatrek"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="https://www.linkedin.com/company/expeditionasia/"><i class="fab fa-linkedin"></i></a></li>
                           <li><a href="#"><i class="fab fa-youtube"></i></a></li>  
                             </ul>
                           </div>

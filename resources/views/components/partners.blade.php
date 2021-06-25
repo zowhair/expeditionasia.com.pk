@@ -27,5 +27,38 @@
                 </div>
             </div>
         </div>
+
     </div>
+
 </div>
+<div class="container" style="border: 2px solid black; ">
+    <nav >
+  <div class="nav nav-tabs" id="nav-tab" role="tablist" style="background-color: white">
+    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Cause Based Tourism</a>
+    <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Voulteer with us</a>
+    <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Responsible Team</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <h1>Community Development</h1>
+      <p>With travel and tourism we have a role to play in community. Expedition Asia dedicates 5% of its profit on community development specially on education, health and sanitation.
+
+</p>
+  </div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <h1>Get a Complementary Tour</h1>
+      <p>Expedition Asia is offering  an exciting opportunity to enthusiastic tourists, share your expertise with local community and get a complementary short destination trips in Pakistan. Write us now!
+
+</p>
+  </div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+      <h1>Our Green Initiatives</h1>
+      <p>Expedition Asia believes in responsible tourism we often conduct awareness activities against pollution. We want to make a positive impact on the environment by contributing to mother earth.
+
+</p>
+  </div>
+</div>
+</div>
+
+<br><br>

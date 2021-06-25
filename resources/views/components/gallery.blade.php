@@ -1,4 +1,4 @@
-<section id="gridGallery">
+<!-- <section id="gridGallery">
   <div class="container">
     <div class="row" >
       <div class="col-sm-6 col-xs-6 box" id="boxOne"  data-aos="fade-up-right"
@@ -81,13 +81,13 @@
       </div>
 
 
-    </div>
+    </div> -->
     <!--.row-->
 
 
-  </div>
+  <!-- </div> -->
 
   <!--.container-->
 
 
-</section>
+<!-- </section> -->
