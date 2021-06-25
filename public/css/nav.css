@@ -1,0 +1,155 @@
+#bg-dark {
+	/*background-color: #282e6a ;*/
+}
+
+.navbar-collapse {
+    box-shadow: 10px 10px 5px grey;
+}
+/*.nav-item:hover {
+	background-color: #8dc63f;
+}
+*/
+
+.dropdown-item{
+	color: white !important;
+}
+.active1 {
+    background-color: #249cd5;
+}
+
+li > .dropdown-item:hover{
+		color:#64ffc0 !important;
+
+}
+.dropdown-item:hover{
+	color:white !important;
+	/*background-color: rgba(0,0,0,0.6) !important;*/
+}
+.dropdown-item:active{
+    background-color: green;
+}
+ .dropdown-menu {
+	/*background-:: rgba(0,0,0,0);*/
+	background-color;:rgba(129, 91, 200, 0.74) !important;
+}
+.nav-item .dropdown a:hover {
+	color:#64ffc0 !important;
+
+}
+.nav {
+
+	background-color: #282e6a;
+	transition: none;
+    border: 0;
+    bottom: auto;
+    box-sizing: border-box;
+    clip: auto;
+    color: #fff;
+    display: block;
+    float: none;
+    font-family: inherit;
+    font-size: 14px;
+    height: auto;
+    left: auto;
+    line-height: 1.7;
+    list-style-type: none;
+    margin: 0;
+    min-height: auto;
+    max-height: none;
+    opacity: 1;
+    outline: none;
+    overflow: visible;
+    padding: 0 !important;
+    position: relative;
+    pointer-events: auto;
+    right: auto;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    transform: none;
+    top: auto;
+    vertical-align: baseline;
+    visibility: inherit;
+    width: auto;
+    word-wrap: break-word;
+    white-space: normal;
+    border-radius: 0;
+    background: #282e6a;
+    clear: both;
+}
+.nav-item{
+	border-left: 1px solid rgba(40, 46, 106, 0.75);
+    box-shadow: inset 1px 0 0 0 rgb(255 255 255 / 30%);
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-box-direction: normal;
+    font: inherit;
+    transition: all 0.1s ease-in 0.1s !important;
+    bottom: auto;
+    box-sizing: border-box;
+    clip: auto;
+    float: none;
+    left: auto;
+    list-style-type: none;
+    margin: 0;
+    min-height: auto;
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
+    position: relative;
+    pointer-events: auto;
+    right: auto;
+    text-indent: 0;
+    transform: none;
+    top: auto;
+    visibility: inherit;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    line-height: 40px;
+    /*height: 40px;*/
+    padding: 10px 10px 15px 15px;
+    vertical-align: baseline;
+    width: auto;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-family: inherit;
+    font-size: 13px;
+    outline: none;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+.card{
+    margin: 10px;
+    width: 10vw;
+}
+    .card-img-top {
+        width: 20vw;
+    }
+#card-button{
+    width: 10vw;
+}
+.card-body{
+    width: 20vw;
+}
+
+    .button {
+    display: block;
+    /*width: 115px;*/
+    /*height: 25px;*/
+    background: #282e6a;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    /*font-weight: bold;*/
+    line-height: 25px;
+}
+.button:hover{
+    color: green;
+}

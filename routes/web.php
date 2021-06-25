@@ -40,7 +40,7 @@ Route::get('/expeditions/{epage}', [ToursController::class, 'getExpeditions'])->
 
 Route::get('/treks/{tpage}', [ToursController::class, 'getTreks'])->where(['tpage'=> '(\bbatura\b)|(\bbiafo\b)|(\bfairymeadow\b)|(\bk2bc\b)|(\bk2bcgondogoro\b)|(\bk2bcgasherbrum\b)|(\bk6bc\b)|(\bmasherbrum\b)|(\bnagar\b)|(\bnaltar\b)|(\bnangaparbetrupal\b)|(\bpatundas\b)|(\brakaposhi\b)|(\bshimshal\b)|(\bspantikbc\b)|(\bthalle\b)|(\btorch\b)|(\bwakhan\b)']);
 
-Route::get('/cultural/{cpage}', [ToursController::class, 'getCultural'])->where(['cpage'=>'(\bbalochistan\b)|(\blahore\b)|(\bmultan\b)|(\bsargodha\b)|(\bborder\b)|(\bdesert\b)']);
+Route::get('/cultural/{cpage}', [ToursController::class, 'getCultural'])->where(['cpage'=>'(\bbalochistan\b)|(\blahore\b)|(\bmultan\b)|(\bsargodha\b)|(\bborder\b)|(\bdesert\b)|(\bislamabad\b)|(\btaxila\b)|(\bgb\b)|(\bmultan\b)']);
 
 Route::get('/safari/{spage}', [ToursController::class, 'getSafari'])->where(['spage'=>'(\bastore\b)|(\bbalochistan\b)|(\bdeosai\b)|(\bsarfaranga\b)']);
 

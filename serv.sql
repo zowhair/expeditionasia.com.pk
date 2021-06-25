@@ -1,0 +1,6 @@
+insert into tours (title, link, category, summary, detail) 
+	VALUES
+	("Helicopter", "helicopter", "services","", "Expedition Asia Trek and Tours offers Helicopter Safari around the mountains of the Karakoram and himlayan region of Gilgit-Baltistan. We are the only agency in Pakistan who works with a German doctor who is especially trained in high altitude medicine."),
+	("Security", "security", "services", "","We care you and provide best security to you. We have guaranteed tour operators and porters who are government licensed and we give importance to your security"),
+	("Camping", "camping", "services", "","We provide camping facilities to you in many different areas, in mountains, deserts, near river. You will enjoy these outdoor activites for sure"),
+	("Transport", "transport", "services", "","We provide all transports you need during your tour and provide best, luxury and latest model vehicles with or wihtout drivers, its upto you. We special take care about maintenance of our vehicles.");

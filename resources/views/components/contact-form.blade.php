@@ -8,8 +8,13 @@
                 <i class="fas fa-envelope-open mr-2 contact-icons"></i
                 ><a href="mailto:info@expeditionasia.com.pk">info@expeditionasia.com.pk</a>
             </li>
+            <li id="mail-address">
+<!--               Replace with your email address -->
+                <i class="fas fa-envelope-open mr-2 contact-icons"></i
+                ><a href="mailto:expeditionasiaa@gmail.com">expeditionasiaa@gmail.com</a>
+            </li>
             <li>
-              <i class="fas fa-mobile-alt mr-2 contact-icons"></i><a style="color:#282e6a;" href="tel:+92300324323456">+92 (300) 324323456</a>
+              <i class="fas fa-mobile-alt mr-2 contact-icons"></i><a style="color:#282e6a;" href="tel:+923004708813">+92 (300) 4708813</a>
             </li>
             <li>
               <i class="fas fa-mobile-alt mr-2 contact-icons"></i><a style="color:#282e6a;" href="tel:+925815456667">+92 (58154) 56667</a>

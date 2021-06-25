@@ -1,6 +1,5 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>expasia</title>
-            <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
             <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap4.6.min.css') }}">
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
             <link rel="stylesheet" type="text/css" href="{{ asset('css/aos.css') }}">
@@ -13,5 +12,8 @@
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> 
+            
+            <link rel="stylesheet" type="text/css" href="{{ asset('css/nav.css') }}">
                
 
+            <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
