@@ -43,7 +43,7 @@
 
           <h4 class="card-title">G1/G2 </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shigar</h6> -->
-          <p class="card-text">This is the 11th highest mountain in the works and is also known as k5 or hidden ....</p>
+          <p class="card-text">This is the 11th highest mountain in the works and is also known as ....</p>
           <a href="{{ url('treks/gasherbrum') }}" class="button">
             More Detail
          <!--  <button type="button" class="btn btn-secondary btn-lg btn-block " id=
@@ -116,7 +116,7 @@
 
           <h4 class="card-title">K6/K7 & Laila Peak </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shigar</h6> -->
-          <p class="card-text">Half way up the Hushe Valley the most frequently used K6 base camp lies near ...</p>
+          <p class="card-text">Half way up the Hushe Valley the most frequently used <br> K6 base camp lies near ...</p>
           <a href="{{ url('treks/k6bc') }}" class="button">
             More Detail
          <!--  <button type="button" class="btn btn-secondary btn-lg btn-block " id=
