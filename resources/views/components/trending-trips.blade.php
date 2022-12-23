@@ -279,7 +279,7 @@
 
           <h4 class="card-title">Astore </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shimshall</h6> -->
-          <p class="card-text">The Astore Valley has an area of 5,092 km² and is at an altitude of 2,600 metres (8,500 ft)...</p>
+          <p class="card-text">The Astore Valley has an area of 5,092 km² and is at an altitude of 2,600m ...</p>
           <a href="{{ url('safari/astore') }}" class="button">
             More Detail
             <!-- <button type="button" class="btn btn-secondary btn-lg btn-block" id=
