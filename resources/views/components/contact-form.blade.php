@@ -37,6 +37,7 @@
             action="{{ route('contact-form.store') }}"
             method="POST"
           >
+           {{ csrf_field() }}
             <div class="form-group w-75">
               <input
                 type="name"
