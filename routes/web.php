@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ToursController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,6 +53,8 @@ Route::get('/gallery', [ToursController::class, 'getGallery']);
 Route::get('/blog', [ToursController::class, 'getBlog']);
 Route::get('/about', [ToursController::class, 'getAbout']);
 Route::get('/contact', [ToursController::class, 'getContacts']);
+
+Route::post('/contact', [App\Http\Controllers\ContactController::class, 'storeContactForm'])->name('contact-form.store');
 
 // [ToursController::class,'getExpeditions'])->where(['epage' => '(\bk2\b)|(\bbatura\b)|(\bbroadp\b)|(\bchgolisa\b)']);
 

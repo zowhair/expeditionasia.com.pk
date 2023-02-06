@@ -132,9 +132,6 @@ li > .dropdown-item:hover{
 #card-button{
     width: 10vw;
 }
-.card-body{
-    width: 20vw;
-}
 
     .button {
     display: block;

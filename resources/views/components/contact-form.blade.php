@@ -34,7 +34,7 @@
 
           <form
             class="contact-form d-flex flex-column align-items-center"
-            action="https://formspree.io/youremail@mail.com"
+            action="{{ route('contact-form.store') }}"
             method="POST"
           >
             <div class="form-group w-75">
@@ -55,6 +55,15 @@
                 required
               />
             </div>
+            <div class="form-group w-75">
+              <input
+                type="phone"
+                class="form-control"
+                placeholder="phone +12 00 000 0000"
+                name="phone"
+                required
+              />
+            </div>
 
             <div class="form-group w-75">
               <textarea
@@ -62,7 +71,7 @@
                 type="text"
                 placeholder="Message"
                 rows="7"
-                name="name"
+                name="message"
                 required
               ></textarea>
             </div>

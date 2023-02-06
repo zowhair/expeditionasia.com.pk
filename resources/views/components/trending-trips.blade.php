@@ -4,6 +4,7 @@
 </div>
   <div class="container" >
   <div class="row">
+
     <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
       <div class="card border-0" data-aos="fade-up" data-aos-duration="1200">
         <div class="card-body text-center">
@@ -59,7 +60,7 @@
 
           <h4 class="card-title">Nangaparbet </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shimshall</h6> -->
-          <p class="card-text">Nanga Parbat is the ninth highest mountain in the world. This is located in ....</p>
+          <p class="card-text">Nanga Parbat is the ninth highest mountain in the world. This is  ....</p>
           <a href="{{ url('treks/nangaparbet') }}" class="button">
             More Detail
             <!-- <button type="button" class="btn btn-secondary btn-lg btn-block" id=
