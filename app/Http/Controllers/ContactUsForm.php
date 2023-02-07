@@ -18,21 +18,24 @@ class ContactUsForm extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
-            'message' => 'required'
+            'message' => 'required',
+            'phone' => 'required',
         ]);
-        //Store data in database
-        Contact::create($request->all());
 
-        // Send Mail to admin
-        \Mail::send('mail', array(
-            'name'=> $request->get('name'),
-            'email' => $request->get('email'),
-            'message' => $request->get('message'),
-        ), function($message) use ($request) {
+        $input = $request->all();
+        dd($input);
+        Contact::create($input);
+
+        \Mail::send('contactMail', array(
+            'name' => $input['name'],
+            'email' => $input['email'],
+            'phone' => $input['phone'],
+            'message' => $input['message'],
+        ), function($message) use ($request){
             $message->from($request->email);
-            $message->to('zowhair@gmail.com', 'Admin');
+            $message->to('mzuhair14m@gmail.com', 'Admin')->subject($request->get('subject'));
         });
 
-        return back()->with('success', 'we have received message and will contact you soon');
+        return redirect()->back()->with(['success' => 'Contact Form Submit Successfully']);
     }
 }

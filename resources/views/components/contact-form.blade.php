@@ -34,9 +34,10 @@
 
           <form
             class="contact-form d-flex flex-column align-items-center"
-            action="{{ route('contact-form.store') }}"
+            action="{{ url('/send') }}"
             method="POST"
           >
+          @csrf()
            {{ csrf_field() }}
             <div class="form-group w-75">
               <input

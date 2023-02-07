@@ -20,7 +20,7 @@ class ContactController extends Controller
         ]);
 
         $input = $request->all();
-
+        dd($input);
         Contact::create($input);
 
         \Mail::send('contactMail', array(
