@@ -42,7 +42,7 @@
         <div class="card-body text-center">
         <img class="card-img-top" src="{{ asset('img/concordia1.jpg') }}" alt="K2">
 
-          <h4 class="card-title">G1/G2 </h4>
+          <h4 class="card-title">Concordia </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shigar</h6> -->
           <p class="card-text">This is the 11th highest mountain in the works and is also known as ....</p>
           <a href="{{ url('treks/gasherbrum') }}" class="button">
@@ -58,7 +58,7 @@
         <div class="card-body text-center">
           <img class="card-img-top" src="{{ asset('img/ghoro-1.jpg') }}" alt="K2">
 
-          <h4 class="card-title">Nangaparbet </h4>
+          <h4 class="card-title">Goro1/Goro2 </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shimshall</h6> -->
           <p class="card-text">Nanga Parbat is the ninth highest mountain in the world. This is  ....</p>
           <a href="{{ url('treks/nangaparbet') }}" class="button">
@@ -81,9 +81,9 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
       <div class="card border-0" data-aos="fade-up" data-aos-duration="1200">
         <div class="card-body text-center">
-          <img class="card-img-top" src="{{ asset('img/skardu-aut-ind.jpg') }}" alt="K2">
+          <img class="card-img-top" src="{{ asset('img/Gomdogoro-La-pass.jpg') }}" alt="K2">
 
-          <h4 class="card-title ">Gondogoro LA & K2 </h4>
+          <h4 class="card-title ">Ghomdogoro La Pass </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Baltistan </h6> -->
           <p class="card-text " >Gondogoro Pass lies 25 kms away from K2 Peak. This pass connects Vigne Glaciers ... </p>
           <a href="{{ url('treks/k2bcgondogoro') }}" class="button">
@@ -97,9 +97,9 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card border-0" data-aos="fade-up" data-aos-duration="1200">
         <div class="card-body text-center">
-          <img class="card-img-top" src="{{ asset('img/skardu-aut-ind.jpg') }}" alt="K2">
+          <img class="card-img-top" src="{{ asset('img/biafo.jpg') }}" alt="K2">
 
-          <h4 class="card-title">Snow Lake</h4>
+          <h5 class="card-title">Biafo Hisper</h5>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Baltistan </h6> -->
           <p class="card-text" >This is the most remote trek and very high-altitude glacial basin which ranges .... </p>
           <a href="{{ url('treks/biafo') }}" class="button">
@@ -113,7 +113,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card border-0" data-aos="fade-up" data-aos-duration="1200">
         <div class="card-body text-center">
-          <img class="card-img-top" src="{{ asset('img/concordia1.jpg') }}" alt="K2">
+          <img class="card-img-top" src="{{ asset('img/k6.jpg') }}" alt="K2">
 
           <h4 class="card-title">K6/K7 & Laila Peak </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shigar</h6> -->
@@ -129,7 +129,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card border-0 " data-aos="fade-up" data-aos-duration="1200">
         <div class="card-body text-center">
-          <img class="card-img-top" src="{{ asset('img/ghoro-1.jpg') }}" alt="K2">
+          <img class="card-img-top" src="{{ asset('img/patundas.jpg.webp') }}" alt="K2">
 
           <h4 class="card-title">Patundas Trek </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shimshall</h6> -->
@@ -172,7 +172,7 @@
         <div class="card-body text-center">
           <img class="card-img-top" src="{{ asset('img/polo.jpg') }}" alt="K2">
 
-          <h4 class="card-title ">Hunza</h4>
+          <h4 class="card-title ">Baltistan</h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Baltistan </h6> -->
           <p class="card-text " >Hunza is very famous in Gilgit Baltistan for its culture and forts ....  </p>
           <a href="{{ url('cultural/gb') }}" class="button">
@@ -203,7 +203,7 @@
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card border-0 " data-aos="fade-up" data-aos-duration="1200">
         <div class="card-body text-center">
-          <img class="card-img-top" src="{{ asset('img/ghoro-1.jpg') }}" alt="K2">
+          <img class="card-img-top" src="{{ asset('img/taxila.jpg') }}" alt="K2">
 
           <h4 class="card-title">Taxila </h4>
           <!-- <h6 class="card-subtitle mb-2 text-muted">Shimshall</h6> -->
