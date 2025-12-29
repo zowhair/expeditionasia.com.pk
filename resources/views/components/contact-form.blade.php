@@ -5,10 +5,10 @@
     <h2 class="mb-4">Stay Connected!!</h2>
 <!-- Contact Info -->
     <ul class="fa-ul mb-4 ml-0 text-left mx-auto" style="max-width: 600px;">
-      <li>
+      <!-- <li>
         <i class="fas fa-envelope-open mr-2 contact-icons"></i>
         <a href="mailto:info@expeditionasia.com.pk">info@expeditionasia.com.pk</a>
-      </li>
+      </li> -->
       <li>
         <i class="fas fa-envelope-open mr-2 contact-icons"></i>
         <a href="mailto:expeditionasiaa@gmail.com">expeditionasiaa@gmail.com</a>
