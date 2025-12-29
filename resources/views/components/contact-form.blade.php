@@ -20,10 +20,10 @@
               <i class="fas fa-mobile-alt mr-2 contact-icons"></i><a style="color:#282e6a;" href="tel:+925815456667">+92 (58154) 56667</a>
             </li>
             <li>
-              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Opposite PIA Office, Skardu
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>College Road, Skardu
             </li>
             <li>
-              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Near Parade Ground Metro Station, Blue area, Islamabad Pakistan
+              <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>27-E 3rd Floor office # 5 Ali Plaza Fazl e Haq Road, Blue area, Islamabad Pakistan
             </li>
           </ul>
 
