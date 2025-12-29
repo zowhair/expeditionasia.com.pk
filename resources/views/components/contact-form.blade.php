@@ -28,15 +28,15 @@
 
         <!-- Skardu -->
         <div class="col-12 col-md-3 font-weight-bold">
-          Skardu
+          Skardu (Main Office): 
         </div>
         <div class="col-12 col-md-9 text-muted">
-          College Road, Skardu
+          Near Boys Degree College Skardu, Gilgit Baltistan 
         </div>
 
         <!-- Islamabad -->
         <div class="col-12 col-md-3 font-weight-bold mt-3 mt-md-2">
-          Islamabad
+          Islamabad (Sub Office): 
         </div>
         <div class="col-12 col-md-9 text-muted mt-md-2">
           27-E, 3rd Floor, Office # 5, Ali Plaza, Fazl-e-Haq Road, Blue Area, Islamabad, Pakistan
